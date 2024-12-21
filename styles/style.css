@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+body{
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.main{
+    background: hsl(0, 0%, 100%);
+    padding: 1rem;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.main-card{
+    width: 300px;
+    height: 230px;
+    border-radius: 1rem;
+}
+
+.main-heading{
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+
+
+
+.main-paragraph{
+    color: hsl(216, 15%, 48%);
+    max-width: 216px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 30px; left: 30px;
+}
